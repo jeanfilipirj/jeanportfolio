@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jean Tech Studio — CMD</title>
+  <link rel="stylesheet" href="css/cmd.css" />
+</head>
+<body>
+  <main class="screen" aria-label="Terminal">
+    <div class="log" id="log" aria-live="polite"></div>
+
+    <div class="inputbar">
+      <span class="prompt">C:\Users\Jean&gt;</span>
+      <input id="cmdInput" class="cmdInput" type="text" autocomplete="off" spellcheck="false" />
+      <span class="cursor" aria-hidden="true"></span>
+    </div>
+
+    <!-- BOTÃO VER MAIS -->
+    <div class="vermais-wrap">
+      <button id="btnVerMais" class="vermais-btn">VER MAIS</button>
+    </div>
+  </main>
+
+  <script src="js/cmd.js"></script>
+</body>
+</html>
